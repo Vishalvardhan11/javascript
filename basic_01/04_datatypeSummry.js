@@ -32,3 +32,28 @@ const isFunction= function(){
 }
 
 console.table(myObj);
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//premeative(stack). , nonpremeative(heap)
+
+let myYoutube ='point_Nemo05'
+
+let anotherYoutube= myYoutube
+
+anotherYoutube='arya@69'
+
+console.log(anotherYoutube);
+
+let fuser= {
+    name: 'vishal',
+    upi:  'vis@ybl'
+
+}
+
+let fuser2=fuser
+
+fuser2="arya@ybl"
+console.log(fuser);
+console.log(fuser2);
